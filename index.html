@@ -10,37 +10,31 @@
   <body>
     <div class="form-container">
       <form novalidate>
-        <span>
+        <div class="form-field">
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" required />
+          <input type="email" name="email" id="email" />
           <p></p>
-        </span>
-        <span>
+        </div>
+        <div class="form-field">
           <label for="country">Country</label>
-          <input
-            type="text"
-            name="country"
-            id="country"
-            minlength="4"
-            required
-          />
+          <input type="text" name="country" id="country" minlength="4" />
           <p></p>
-        </span>
-        <span>
+        </div>
+        <div class="form-field">
           <label for="zip">Zip Code</label>
-          <input type="tel" name="zip" id="zip" min="5" max="5" required />
+          <input type="tel" name="zip" id="zip" min="5" max="5" />
           <p></p>
-        </span>
-        <span>
+        </div>
+        <div class="form-field">
           <label for="password">Password</label>
-          <input type="password" name="password" id="password" required />
+          <input type="password" name="password" id="password" />
           <p></p>
-        </span>
-        <span>
+        </div>
+        <div class="form-field">
           <label for="pass-conf">Password Confirmation</label>
-          <input type="password" name="pass-conf" id="pass-conf" required />
+          <input type="password" name="pass-conf" id="pass-conf" />
           <p></p>
-        </span>
+        </div>
         <button>Submit</button>
       </form>
     </div>

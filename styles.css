@@ -17,7 +17,7 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  justify-items: center;
+  /* justify-items: left; */
   align-items: center;
   background-color: #f6f7f8;
   border: 1px solid #d6d9dc;
@@ -25,15 +25,15 @@ form {
   padding: 50px;
 }
 
-span {
+/* span {
   margin-bottom: 1rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-}
+} */
 
 label {
-  width: 10rem;
+  width: 100px;
   text-align: right;
   padding-right: 1rem;
 }
@@ -49,6 +49,16 @@ input {
 
 input:invalid {
   border: 1px solid #d55c5f;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+.form-field p {
+  color: red;
+  font-size: 0.9rem;
+  padding: 0.4rem 1rem 1rem 1rem;
 }
 
 button {
