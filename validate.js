@@ -25,7 +25,7 @@ const isPasswordSecure = (password) => {
 };
 
 const showError = (input, message) => {
-  const formField = input.parentElement;
+  const formField = input.parentElement.parentElement;
 
   input.classList.remove('valid');
   input.classList.add('invalid');
